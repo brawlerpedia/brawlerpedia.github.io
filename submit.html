@@ -1,1 +1,47 @@
-<html><head><title>Submit Idea</title></head><body><h1>Submit Your Idea</h1><p>Submit your game improvement ideas here.</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Submit Your Idea - Brawlerpedia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Brawlerpedia</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="brawlers.html">Brawlers</a>
+      <a href="ideas.html" class="active">Submit Ideas</a>
+      <a href="games.html">Supercell Games</a>
+      <a href="future.html">Future Ideas</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="ideas-form">
+      <h2>Submit Your Brawl Stars Idea</h2>
+      <p>Have a cool idea for a Brawler, feature, or game mode? Share it with us!</p>
+
+      <form action="https://formspree.io/f/your_form_id" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="idea">Your Idea:</label>
+        <textarea id="idea" name="idea" rows="6" required></textarea>
+
+        <button type="submit">Submit Idea</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brawlerpedia | Made by Fans for Fans</p>
+  </footer>
+</body>
+</html>
